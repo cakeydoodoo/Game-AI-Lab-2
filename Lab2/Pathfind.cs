@@ -1,4 +1,7 @@
-﻿using System;
+﻿/*
+ *
+ * using System;
+ 
 using System.Collections.Generic;
 
 /*
@@ -13,7 +16,7 @@ using System.Collections.Generic;
  * 
  * mono Pathfind.exe 2 8 3
  * (Creates graph #2 and requests a path from node 8 to node 3)
- */
+ 
 class Pathfind {
    
    // Main method
@@ -89,3 +92,4 @@ class Pathfind {
 
 
 
+*/
