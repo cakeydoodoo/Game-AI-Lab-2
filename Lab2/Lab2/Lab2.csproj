@@ -65,6 +65,9 @@
     <Compile Include="..\PriorityQueue.cs">
       <Link>PriorityQueue.cs</Link>
     </Compile>
+    <Compile Include="..\YellowGraph.cs">
+      <Link>YellowGraph.cs</Link>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

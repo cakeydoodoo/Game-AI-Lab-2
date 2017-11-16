@@ -22,6 +22,7 @@
       <e p="Pathfind.cs" t="Include" />
       <e p="Pathfinder.cs" t="Include" />
       <e p="PriorityQueue.cs" t="Include" />
+      <e p="YellowGraph.cs" t="Include" />
     </e>
   </component>
 </project>
