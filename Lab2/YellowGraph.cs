@@ -56,10 +56,13 @@ class YellowGraph : Graph {
          {
             for (int j = 0; j < adjMatrix.GetLength(1); j++)
             {
-
-                  adjMatrix[i, j] = a;
-                 
+               if (i == j)
+               {
+              
+               adjMatrix[i, j] = a;
             }
+
+         }
             
             
          }
