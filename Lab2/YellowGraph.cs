@@ -47,18 +47,29 @@ class YellowGraph : Graph {
 
    public void AddEdge(Node n, Node m, int a)
    {
-      /*
-      int[] newEdge = new int[adjMatrix.GetLength(0) + 1];
+      
+      int[,] newEdge = new int[adjMatrix.GetLength(0), adjMatrix.GetLength(1)];
 
-      if (a > 0)
-      {
-         for(int i = 0; i < adjMatrix.GetLength(0); i++)
+      //if (a > 0)
+      //{
+         for (int i = 0; i < adjMatrix.GetLength(0); i++)
+         {
+            for (int j = 0; j < adjMatrix.GetLength(1); j++)
+            {
 
-        // newEdge.AddEdge(n, m, a);
+                  adjMatrix[i, j] = a;
+                 
+            }
+            
+            
+         }
+         
+         
+         //newEdge.AddEdge(a);
          //  adjMatrix[indexA, indexB] = c;
 
-      }
-      */
+      //}
+      
    }
 
 

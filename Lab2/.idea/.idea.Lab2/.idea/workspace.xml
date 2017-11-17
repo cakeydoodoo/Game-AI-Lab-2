@@ -70,33 +70,36 @@
       <file leaf-file-name="YellowGraph.cs" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/YellowGraph.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="60" column="8" lean-forward="false" selection-start-line="60" selection-start-column="8" selection-end-line="60" selection-end-column="8" />
+            <state relative-caret-position="368">
+              <caret line="59" column="38" lean-forward="true" selection-start-line="59" selection-start-column="38" selection-end-line="59" selection-end-column="38" />
               <folding>
-                <marker date="1510934308996" expanded="true" signature="6:47" ph="..." />
-                <marker date="1510934308996" expanded="true" signature="75:2928" ph="{...}" />
-                <marker date="1510934308996" expanded="true" signature="148:352" ph="/* An adjacency matrix, recording edges between nodes ... */" />
-                <marker date="1510934308996" expanded="true" signature="407:533" ph="{...}" />
-                <marker date="1510934308996" expanded="true" signature="566:1072" ph="{...}" />
-                <marker date="1510934308996" expanded="true" signature="817:961" ph="{...}" />
-                <marker date="1510934308996" expanded="true" signature="883:953" ph="{...}" />
-                <marker date="1510934308996" expanded="true" signature="1120:1381" ph="{...}" />
-                <marker date="1510934308996" expanded="true" signature="1132:1376" ph="/* int[] newEdge = new int[adjMatrix.GetLength(0) + 1]; ... */" />
-                <marker date="1510934308996" expanded="true" signature="1423:2265" ph="{...}" />
-                <marker date="1510934308996" expanded="true" signature="1610:1880" ph="{...}" />
-                <marker date="1510934308996" expanded="true" signature="1656:1871" ph="{...}" />
-                <marker date="1510934308996" expanded="true" signature="1705:1859" ph="{...}" />
-                <marker date="1510934308996" expanded="true" signature="1754:1829" ph="{...}" />
-                <marker date="1510934308996" expanded="true" signature="1957:2236" ph="{...}" />
-                <marker date="1510934308996" expanded="true" signature="2003:2218" ph="{...}" />
-                <marker date="1510934308996" expanded="true" signature="2052:2206" ph="{...}" />
-                <marker date="1510934308996" expanded="true" signature="2101:2176" ph="{...}" />
-                <marker date="1510934308996" expanded="true" signature="2302:2343" ph="{...}" />
-                <marker date="1510934308996" expanded="true" signature="2377:2403" ph="{...}" />
-                <marker date="1510934308996" expanded="true" signature="2465:2926" ph="{...}" />
-                <marker date="1510934308996" expanded="true" signature="2552:2921" ph="{...}" />
-                <marker date="1510934308996" expanded="true" signature="2671:2882" ph="{...}" />
-                <marker date="1510934308996" expanded="true" signature="2709:2871" ph="{...}" />
+                <marker date="1510935684843" expanded="true" signature="6:47" ph="..." />
+                <marker date="1510935684843" expanded="true" signature="75:3160" ph="{...}" />
+                <marker date="1510935684843" expanded="true" signature="148:352" ph="/* An adjacency matrix, recording edges between nodes ... */" />
+                <marker date="1510935684843" expanded="true" signature="407:533" ph="{...}" />
+                <marker date="1510935684843" expanded="true" signature="566:1072" ph="{...}" />
+                <marker date="1510935684843" expanded="true" signature="817:961" ph="{...}" />
+                <marker date="1510935684843" expanded="true" signature="883:953" ph="{...}" />
+                <marker date="1510935684843" expanded="true" signature="1120:1613" ph="{...}" />
+                <marker date="1510935684843" expanded="true" signature="1220:1242" ph="/* if (a &gt; 0) ... */" />
+                <marker date="1510935684843" expanded="true" signature="1300:1495" ph="{...}" />
+                <marker date="1510935684843" expanded="true" signature="1372:1458" ph="{...}" />
+                <marker date="1510935684843" expanded="true" signature="1525:1601" ph="/* newEdge.AddEdge(a); ... */" />
+                <marker date="1510935684843" expanded="true" signature="1655:2497" ph="{...}" />
+                <marker date="1510935684843" expanded="true" signature="1842:2112" ph="{...}" />
+                <marker date="1510935684843" expanded="true" signature="1888:2103" ph="{...}" />
+                <marker date="1510935684843" expanded="true" signature="1937:2091" ph="{...}" />
+                <marker date="1510935684843" expanded="true" signature="1986:2061" ph="{...}" />
+                <marker date="1510935684843" expanded="true" signature="2189:2468" ph="{...}" />
+                <marker date="1510935684843" expanded="true" signature="2235:2450" ph="{...}" />
+                <marker date="1510935684843" expanded="true" signature="2284:2438" ph="{...}" />
+                <marker date="1510935684843" expanded="true" signature="2333:2408" ph="{...}" />
+                <marker date="1510935684843" expanded="true" signature="2534:2575" ph="{...}" />
+                <marker date="1510935684843" expanded="true" signature="2609:2635" ph="{...}" />
+                <marker date="1510935684843" expanded="true" signature="2697:3158" ph="{...}" />
+                <marker date="1510935684843" expanded="true" signature="2784:3153" ph="{...}" />
+                <marker date="1510935684843" expanded="true" signature="2903:3114" ph="{...}" />
+                <marker date="1510935684843" expanded="true" signature="2941:3103" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -215,9 +218,9 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="-7" />
-    <option name="width" value="1017" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="996" />
+    <option name="width" value="931" />
     <option name="height" value="1047" />
   </component>
   <component name="ProjectView">
@@ -298,12 +301,12 @@
       <option name="presentableId" value="Default" />
       <updated>1510683048396</updated>
       <workItem from="1510683049522" duration="191000" />
-      <workItem from="1510683381027" duration="19330000" />
+      <workItem from="1510683381027" duration="20831000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19521000" />
+    <option name="totallyTimeSpent" value="21022000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -315,7 +318,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="0" width="1017" height="1047" extended-state="0" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -323,10 +326,10 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Unit Tests" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20663811" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20466596" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="NuGet" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22877122" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.11927083" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.13811563" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -541,33 +544,36 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/YellowGraph.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="60" column="8" lean-forward="false" selection-start-line="60" selection-start-column="8" selection-end-line="60" selection-end-column="8" />
+        <state relative-caret-position="368">
+          <caret line="59" column="38" lean-forward="true" selection-start-line="59" selection-start-column="38" selection-end-line="59" selection-end-column="38" />
           <folding>
-            <marker date="1510934308996" expanded="true" signature="6:47" ph="..." />
-            <marker date="1510934308996" expanded="true" signature="75:2928" ph="{...}" />
-            <marker date="1510934308996" expanded="true" signature="148:352" ph="/* An adjacency matrix, recording edges between nodes ... */" />
-            <marker date="1510934308996" expanded="true" signature="407:533" ph="{...}" />
-            <marker date="1510934308996" expanded="true" signature="566:1072" ph="{...}" />
-            <marker date="1510934308996" expanded="true" signature="817:961" ph="{...}" />
-            <marker date="1510934308996" expanded="true" signature="883:953" ph="{...}" />
-            <marker date="1510934308996" expanded="true" signature="1120:1381" ph="{...}" />
-            <marker date="1510934308996" expanded="true" signature="1132:1376" ph="/* int[] newEdge = new int[adjMatrix.GetLength(0) + 1]; ... */" />
-            <marker date="1510934308996" expanded="true" signature="1423:2265" ph="{...}" />
-            <marker date="1510934308996" expanded="true" signature="1610:1880" ph="{...}" />
-            <marker date="1510934308996" expanded="true" signature="1656:1871" ph="{...}" />
-            <marker date="1510934308996" expanded="true" signature="1705:1859" ph="{...}" />
-            <marker date="1510934308996" expanded="true" signature="1754:1829" ph="{...}" />
-            <marker date="1510934308996" expanded="true" signature="1957:2236" ph="{...}" />
-            <marker date="1510934308996" expanded="true" signature="2003:2218" ph="{...}" />
-            <marker date="1510934308996" expanded="true" signature="2052:2206" ph="{...}" />
-            <marker date="1510934308996" expanded="true" signature="2101:2176" ph="{...}" />
-            <marker date="1510934308996" expanded="true" signature="2302:2343" ph="{...}" />
-            <marker date="1510934308996" expanded="true" signature="2377:2403" ph="{...}" />
-            <marker date="1510934308996" expanded="true" signature="2465:2926" ph="{...}" />
-            <marker date="1510934308996" expanded="true" signature="2552:2921" ph="{...}" />
-            <marker date="1510934308996" expanded="true" signature="2671:2882" ph="{...}" />
-            <marker date="1510934308996" expanded="true" signature="2709:2871" ph="{...}" />
+            <marker date="1510935684843" expanded="true" signature="6:47" ph="..." />
+            <marker date="1510935684843" expanded="true" signature="75:3160" ph="{...}" />
+            <marker date="1510935684843" expanded="true" signature="148:352" ph="/* An adjacency matrix, recording edges between nodes ... */" />
+            <marker date="1510935684843" expanded="true" signature="407:533" ph="{...}" />
+            <marker date="1510935684843" expanded="true" signature="566:1072" ph="{...}" />
+            <marker date="1510935684843" expanded="true" signature="817:961" ph="{...}" />
+            <marker date="1510935684843" expanded="true" signature="883:953" ph="{...}" />
+            <marker date="1510935684843" expanded="true" signature="1120:1613" ph="{...}" />
+            <marker date="1510935684843" expanded="true" signature="1220:1242" ph="/* if (a &gt; 0) ... */" />
+            <marker date="1510935684843" expanded="true" signature="1300:1495" ph="{...}" />
+            <marker date="1510935684843" expanded="true" signature="1372:1458" ph="{...}" />
+            <marker date="1510935684843" expanded="true" signature="1525:1601" ph="/* newEdge.AddEdge(a); ... */" />
+            <marker date="1510935684843" expanded="true" signature="1655:2497" ph="{...}" />
+            <marker date="1510935684843" expanded="true" signature="1842:2112" ph="{...}" />
+            <marker date="1510935684843" expanded="true" signature="1888:2103" ph="{...}" />
+            <marker date="1510935684843" expanded="true" signature="1937:2091" ph="{...}" />
+            <marker date="1510935684843" expanded="true" signature="1986:2061" ph="{...}" />
+            <marker date="1510935684843" expanded="true" signature="2189:2468" ph="{...}" />
+            <marker date="1510935684843" expanded="true" signature="2235:2450" ph="{...}" />
+            <marker date="1510935684843" expanded="true" signature="2284:2438" ph="{...}" />
+            <marker date="1510935684843" expanded="true" signature="2333:2408" ph="{...}" />
+            <marker date="1510935684843" expanded="true" signature="2534:2575" ph="{...}" />
+            <marker date="1510935684843" expanded="true" signature="2609:2635" ph="{...}" />
+            <marker date="1510935684843" expanded="true" signature="2697:3158" ph="{...}" />
+            <marker date="1510935684843" expanded="true" signature="2784:3153" ph="{...}" />
+            <marker date="1510935684843" expanded="true" signature="2903:3114" ph="{...}" />
+            <marker date="1510935684843" expanded="true" signature="2941:3103" ph="{...}" />
           </folding>
         </state>
       </provider>
