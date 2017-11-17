@@ -21,31 +21,74 @@ class YellowGraph : Graph {
 
 
    public void AddNode(Node n)
-   {
+   {     
+      
+      nodes.Add(n);
+          // adds a node to the arraylist
+          
+      int[,] temp = new int [adjMatrix.GetLength(0) + 1, adjMatrix.GetLength(1) + 1];
       
       
+      for (int i = 0; i < adjMatrix.GetLength(0); i++)
+      {
+         for (int j = 0; j < adjMatrix.GetLength(1); j++)
+         {
+            temp[i, j] = adjMatrix[i, j];
+         }
+      }
+      adjMatrix = temp;
+      
+      // increases the array to store the newly added node
+
+      
+ 
    }
 
 
    public void AddEdge(Node n, Node m, int a)
    {
-      
-      
+    //  adjMatrix[indexA, indexB] = c;
+
    }
+
+
+   public List<Node> Neighbours(Node a)
+   {
+      List<Node> NeighbourList = new List<Node>();
+
+      for (int i = 0; i < adjMatrix.GetLength(0); i++)
+      {
+         if (adjMatrix[a.Id, i] == 0)
+         {
+            foreach (Node n in nodes)
+            {
+               if (n.Id.Equals(i))
+               {
+                  NeighbourList.Add(n);
+
+               }
+               
+            }
+
+         }
+
+      }
+
+return NeighbourList;
+
+   }
+
 
    public int Cost(Node n, Node m)
    {
+      
+      
       return 1;
 
    }
-
-   public List<Node> Neighbours(Node a) {
-      return new List<Node>();
-   }     
-   
    
    public List<Node> Nodes() {
-      return new List<Node>();
+      return nodes;
    }
    
    // ADD MISSING METHODS HERE
