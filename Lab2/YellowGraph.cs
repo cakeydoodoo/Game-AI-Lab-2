@@ -26,17 +26,17 @@ class YellowGraph : Graph {
       nodes.Add(n);
           // adds a node to the arraylist
           
-      int[,] temp = new int [adjMatrix.GetLength(0) + 1, adjMatrix.GetLength(1) + 1];
+      int[,] tempMatrix = new int [adjMatrix.GetLength(0) +1 , adjMatrix.GetLength(1) + 1];
       
       
       for (int i = 0; i < adjMatrix.GetLength(0); i++)
       {
          for (int j = 0; j < adjMatrix.GetLength(1); j++)
          {
-            temp[i, j] = adjMatrix[i, j];
+            tempMatrix[i, j] = adjMatrix[i, j];
          }
       }
-      adjMatrix = temp;
+      adjMatrix = tempMatrix;
       
       // increases the array to store the newly added node
 
@@ -47,14 +47,24 @@ class YellowGraph : Graph {
 
    public void AddEdge(Node n, Node m, int a)
    {
-    //  adjMatrix[indexA, indexB] = c;
+      /*
+      int[] newEdge = new int[adjMatrix.GetLength(0) + 1];
 
+      if (a > 0)
+      {
+         for(int i = 0; i < adjMatrix.GetLength(0); i++)
+
+        // newEdge.AddEdge(n, m, a);
+         //  adjMatrix[indexA, indexB] = c;
+
+      }
+      */
    }
 
 
    public List<Node> Neighbours(Node a)
-   {
-      List<Node> NeighbourList = new List<Node>();
+   {// checks the row in the matrix, if it is 0, add the node to neighbour list
+      List<Node> neighbourList = new List<Node>();
 
       for (int i = 0; i < adjMatrix.GetLength(0); i++)
       {
@@ -64,7 +74,7 @@ class YellowGraph : Graph {
             {
                if (n.Id.Equals(i))
                {
-                  NeighbourList.Add(n);
+                  neighbourList.Add(n);
 
                }
                
@@ -73,8 +83,26 @@ class YellowGraph : Graph {
          }
 
       }
+// checks the columns
+      for (int j = 0; j < adjMatrix.GetLength(1); j++)
+      {
+         if (adjMatrix[a.Id, j] == 0)
+         {
+            foreach (Node n in nodes)
+            {
+               if (n.Id.Equals(j))
+               {
+                  neighbourList.Add(n);
 
-return NeighbourList;
+               }
+               
+            }
+
+         }
+         
+      }
+
+return neighbourList;
 
    }
 
